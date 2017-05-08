@@ -1,0 +1,46 @@
+s_sd_pyramids
+=> nrel_main_idtf:
+	[Раздел. Предметная область пирамид]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Subject domain of pyramids]
+	(* <- lang_en;; *);
+
+-> rrel_key_sc_element: subject_domain_of_pyramids;
+
+<- non_atomic_section;
+
+<= nrel_section_decomposition:
+	{
+		s_main_concepts_pyramids
+		(*
+		=> nrel_section_base_order: 
+			s_main_concepts_truncated_pyramids;;
+		*);
+		
+		s_main_concepts_truncated_pyramids
+		(*
+		=> nrel_section_base_order: 
+			s_pyramids_properties;;
+		*);
+
+		s_pyramids_properties
+		(*
+		=> nrel_section_base_order: 
+			s_regular_pyramids;;
+		*);
+		
+		s_regular_pyramids
+		(*
+		=> nrel_section_base_order: 
+			s_triangular_piramids_properties;;
+		*);
+
+		s_triangular_piramids_properties
+		(*
+		=> nrel_section_base_order: 
+			s_truncated_pyramids_properties;;
+		*);
+		
+		s_truncated_pyramids_properties		
+	};;

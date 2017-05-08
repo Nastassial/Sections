@@ -1,0 +1,44 @@
+s_sd_regular_convex_polyhedrons
+=> nrel_main_idtf:
+	[Раздел. Предметная область правильных выпуклых многогранников]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Subject domain of regular convex polyhedrons]
+	(* <- lang_en;; *);
+
+<- non_atomic_section;
+
+<= nrel_section_decomposition:
+	{
+		s_regular_convex_polyhedrons_properties
+		(*
+		=> nrel_section_base_order: 
+			s_sd_cube;;
+		*);
+		
+		s_sd_cube
+		(*
+		=> nrel_section_base_order: 
+			s_sd_dodecahedron;;
+		*);
+
+		s_sd_dodecahedron
+		(*
+		=> nrel_section_base_order: 
+			s_sd_icosahedron;;
+		*);
+
+		s_sd_icosahedron
+		(*
+		=> nrel_section_base_order: 
+			s_sd_octahedron;;
+		*);
+
+		s_sd_octahedron
+		(*
+		=> nrel_section_base_order: 
+			s_sd_tetrahedron;;
+		*);
+		
+		s_sd_tetrahedron
+	};;
