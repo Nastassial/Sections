@@ -21,14 +21,14 @@ s_sd_cones
 		s_cones_properties
 		(*
 		=> nrel_section_base_order: 
-			s_main_concepts_frustums;;
+			s_main_concepts_conoids;;
 		*);
 
 		s_main_concepts_frustums
 		(*
 		=> nrel_section_base_order: 
-			s_frustums_properties;;
+			s_conoidss_properties;;
 		*);
 
-		s_frustums_properties
+		s_conoids_properties
 	};;

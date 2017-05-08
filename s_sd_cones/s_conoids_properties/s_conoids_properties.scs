@@ -1,0 +1,21 @@
+s_conoids_properties
+=> nrel_main_idtf:
+	[Раздел. Свойства усеченного конуса]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Conoid's properties]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются свойства усеченного конуса.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

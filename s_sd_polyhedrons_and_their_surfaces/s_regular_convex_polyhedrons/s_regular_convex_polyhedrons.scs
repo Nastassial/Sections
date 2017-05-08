@@ -13,32 +13,32 @@ s_sd_regular_convex_polyhedrons
 		s_regular_convex_polyhedrons_properties
 		(*
 		=> nrel_section_base_order: 
-			s_sd_cube;;
+			s_sd_cubes;;
 		*);
 		
-		s_sd_cube
+		s_sd_cubes
 		(*
 		=> nrel_section_base_order: 
-			s_sd_dodecahedron;;
+			s_sd_dodecahedrons;;
 		*);
 
-		s_sd_dodecahedron
+		s_sd_dodecahedrons
 		(*
 		=> nrel_section_base_order: 
-			s_sd_icosahedron;;
+			s_sd_icosahedrons;;
 		*);
 
-		s_sd_icosahedron
+		s_sd_icosahedrons
 		(*
 		=> nrel_section_base_order: 
-			s_sd_octahedron;;
+			s_sd_octahedrons;;
 		*);
 
-		s_sd_octahedron
+		s_sd_octahedrons
 		(*
 		=> nrel_section_base_order: 
-			s_sd_tetrahedron;;
+			s_sd_tetrahedrons;;
 		*);
 		
-		s_sd_tetrahedron
+		s_sd_tetrahedrons
 	};;

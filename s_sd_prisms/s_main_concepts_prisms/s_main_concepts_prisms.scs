@@ -1,0 +1,21 @@
+s_main_concepts_prisms
+=> nrel_main_idtf:
+	[Раздел. Призма. Основные определения]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Main concepts of prism]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения призм.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

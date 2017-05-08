@@ -1,0 +1,21 @@
+s_sd_dodecahedrons
+=> nrel_main_idtf:
+	[Раздел. Додекаэдр. Основные определения и свойства]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Main concepts and properties of dodecahedron]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения и свойства додекаэдров.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

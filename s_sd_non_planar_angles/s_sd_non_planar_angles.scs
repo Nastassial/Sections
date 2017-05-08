@@ -12,11 +12,11 @@ s_sd_non_planar_angles
 
 <= nrel_section_decomposition:
 	{
-		s_dihedral_angles
+		s_sd_dihedral_angles
 		(*
 		=> nrel_section_base_order: 
-			s_trihedral_angle;;
+			s_sd_trihedral_angles;;
 		*);
 		
-		s_trihedral_angle
+		s_sd_trihedral_angles
 	};;

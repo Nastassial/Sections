@@ -1,0 +1,21 @@
+s_sd_dihedral_angles
+=> nrel_main_idtf:
+	[Раздел. Двугранный угол]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Dihedral angle]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения и свойства двугранных углов.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

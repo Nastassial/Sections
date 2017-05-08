@@ -33,10 +33,10 @@ s_sd_pyramids
 		s_regular_pyramids
 		(*
 		=> nrel_section_base_order: 
-			s_triangular_piramids_properties;;
+			s_triangular_pyramids_properties;;
 		*);
 
-		s_triangular_piramids_properties
+		s_triangular_pyramids_properties
 		(*
 		=> nrel_section_base_order: 
 			s_truncated_pyramids_properties;;

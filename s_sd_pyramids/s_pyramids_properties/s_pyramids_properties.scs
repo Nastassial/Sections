@@ -1,0 +1,21 @@
+s_pyramids_properties
+=> nrel_main_idtf:
+	[Раздел. Пирамида. Основные свойства]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Pyramid's properies]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные свойства пирамид.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
