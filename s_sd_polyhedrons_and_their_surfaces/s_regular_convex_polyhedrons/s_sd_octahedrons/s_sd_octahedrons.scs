@@ -1,0 +1,21 @@
+s_sd_octahedrons
+=> nrel_main_idtf:
+	[Раздел. Октаэдр. Основные определения и свойства]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Main concepts and properties of octahedron]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения и свойства октаэдров.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

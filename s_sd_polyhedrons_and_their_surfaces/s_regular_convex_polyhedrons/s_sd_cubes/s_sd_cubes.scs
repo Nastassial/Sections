@@ -1,0 +1,21 @@
+s_sd_cube
+=> nrel_main_idtf:
+	[Раздел. Куб. Основные определения и свойства]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Main concepts and properties of cube]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения и свойства кубов.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

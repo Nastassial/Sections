@@ -1,0 +1,21 @@
+s_sd_trihedral_angles
+=> nrel_main_idtf:
+	[Раздел. Трехгранный угол]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Trihedral angles]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения и свойства трехгранных углов.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

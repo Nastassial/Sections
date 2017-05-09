@@ -1,0 +1,21 @@
+s_main_concepts_spheres_and_balls
+=> nrel_main_idtf:
+	[Раздел. Сфера и шар. Основные определения]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Main concepts of sphere and ball]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные определения cфер и шаров.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;

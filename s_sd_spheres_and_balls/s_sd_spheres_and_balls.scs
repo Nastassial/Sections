@@ -12,25 +12,31 @@ s_sd_spheres_and_balls
 
 <= nrel_section_decomposition:
 	{
-		s_ball_layer
+		s_ball_layers
 		(*
 		=> nrel_section_base_order: 
-			s_ball_sector;;
+			s_ball_sectors;;
 		*);
 		
-		s_ball_sector
+		s_ball_sectors
 		(*
 		=> nrel_section_base_order: 
-			s_spherical_belt;;
+			s_spherical_belts;;
 		*);
 
-		s_spherical_belt
+		s_spherical_belts
 		(*
 		=> nrel_section_base_order: 
-			s_spherical_ball_segments;;
+			s_spherical_segments;;
 		*);
 		
-		s_spherical_ball_segments
+		s_spherical_segments
+		(*
+		=> nrel_section_base_order: 
+			s_ball_segments;;
+		*);
+
+		s_ball_segments
 		(*
 		=> nrel_section_base_order: 
 			s_main_concepts_spheres_and_balls;;

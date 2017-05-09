@@ -1,0 +1,21 @@
+s_spheres_and_balls_properies
+=> nrel_main_idtf:
+	[Раздел. Сфера и шар. Основные свойства]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Sphere's and ball's properties]
+	(* <- lang_en;; *);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В данном разделе рассматриваются основные свойства cфер и шаров.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
