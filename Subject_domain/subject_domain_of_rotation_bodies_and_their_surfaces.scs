@@ -1,0 +1,20 @@
+sc_node_struct -> subject_domain_of_rotation_bodies_and_their_surfaces;;
+
+subject_domain_of_rotation_bodies_and_their_surfaces
+=> nrel_main_idtf:
+	[Предметная область тел вращения и их поверхностей]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Subject domain of rotation bodies and their surfaces]
+	(* <- lang_en;; *);;
+
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_cones;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_cylinders;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_segments_of_ball;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_spherical_layers;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_spheric_sectors;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_zones_of_sphere;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_segments_of_sphere;;
+subject_domain_of_rotation_bodies_and_their_surfaces => nrel_primary_elements_class_private_subject_domain: subject_domain_of_spheres_and_balls;;
+
+subject_domain_of_rotation_bodies_and_their_surfaces <- subject_domain;;
